@@ -1,0 +1,156 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(18, 23, 37);
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  height: 9vh;
+  width: 100vw;
+  background-color: rgb(34, 35, 50);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+  color: white;
+  font-family: monospace;
+  font-size: 11px;
+  position: fixed;
+  top: -0.5vh;
+}
+.body {
+  height: 20vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: purple;
+  font: bolder;
+  font-family: monospace;
+  font-size: 17px;
+}
+.box {
+  height: 30vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+.image {
+  background-color: azure;
+  width: 25vw;
+  height: 25vh;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+}
+.login {
+  height: 70vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  color: purple;
+  font-family: monospace;
+  font-size: larger;
+  font-weight: bolder;
+}
+.footer {
+  height: 40vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  background-color: darkslategrey;
+}
+.guide {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.text {
+  font-size: 20px;
+  width: 100vw;
+  height: 35vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: purple;
+  font-family: monospace;
+  font-weight: 900;
+}
+.color {
+  color: white;
+}
+.header p1 {
+  color: purple;
+}
+.header :hover {
+  color: purple;
+  animation-duration: 0.2s;
+}
+.header p {
+  transition: all 0.2s;
+}
+.header img {
+  height: 6vh;
+  width: 4.5vw;
+  border-radius: 15px;
+}
+input {
+  height: 5.5vh;
+  width: 29vw;
+  border-radius: 20px;
+  display: flex;
+  border: 4px transparent solid;
+  transition: 0.2s;
+}
+.qwe {
+  display: flex;
+  gap: 15px;
+}
+.empty {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(18, 23, 37);
+}
+button {
+  height: 5.5vh;
+  width: 61vw;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: large;
+  font-family: monospace;
+  font-weight: bolder;
+  background-color: white;
+  color: rgb(18, 23, 37);
+  transition: 0.2s;
+}
+.button :hover {
+  background-color: purple;
+  color: white;
+}
+.qwerty {
+  width: 61vw;
+  height: 5.5vh;
+  transition: 0.2s;
+}
+.qwe :hover {
+  border-color: purple;
+}
+.qwerty :hover {
+  border-color: purple;
+}
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}

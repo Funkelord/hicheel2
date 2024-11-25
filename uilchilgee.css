@@ -1,0 +1,62 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(18, 23, 37);
+  justify-content: center;
+  align-items: normal;
+  display: flex;
+}
+.header {
+  height: 9vh;
+  width: 100vw;
+  background-color: rgb(34, 35, 50);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+  color: white;
+  font-family: monospace;
+  font-size: 13px;
+  position: fixed;
+  top: -0.5vh;
+}
+.header p {
+  transition: all 0.2s;
+}
+.header img {
+  height: 6vh;
+  width: 4.5vw;
+  border-radius: 15px;
+}
+.header p1 {
+  color: purple;
+}
+.header :hover {
+  color: purple;
+  animation-duration: 0.2s;
+}
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.image {
+  background-color: azure;
+  width: 20vw;
+  height: 14vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  flex-direction: column;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.box {
+  height: 48vh;
+  width: 93vw;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
