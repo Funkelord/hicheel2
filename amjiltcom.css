@@ -102,7 +102,7 @@ p {
   background-color: #5c2f91;
   color: #dbdddf;
 }
-.header :hover {
+.header p :hover {
   height: max-content;
   width: max-content;
   background-color: #dbdddf;
@@ -130,8 +130,8 @@ p {
   width: max-content;
 }
 .garutas {
-  height: 60vh;
-  width: 60vw;
+  height: 57vh;
+  width: 53vw;
 }
 .system {
   display: flex;
@@ -141,6 +141,8 @@ p {
 .guide {
   color: #dbdddf;
   font-size: small;
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 .appstore {
   background-color: transparent;
@@ -149,4 +151,33 @@ p {
 }
 .playstore {
   background-color: transparent;
+}
+.amjilt-logo-white {
+  height: 35px;
+  width: 90px;
+}
+.footer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  font-size: smaller;
+  margin-top: 10px;
+}
+p {
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+h1 {
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+p1 {
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.logo {
+  height: 80px;
+  width: 100px;
 }
