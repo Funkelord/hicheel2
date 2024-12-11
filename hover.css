@@ -1,0 +1,24 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.button p {
+  background-color: cadetblue;
+  height: 10vh;
+  width: 10vw;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: aliceblue;
+  transition: all 0.3s;
+}
+.button :hover {
+  background-color: orangered;
+  animation-duration: 5ms;
+  transform: translateY(-10px);
+}

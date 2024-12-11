@@ -1,0 +1,48 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(186, 208, 248);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.box {
+  width: 40vw;
+  height: 60vh;
+  background-color: darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: burlywood;
+  border: 10px solid burlywood;
+  box-shadow: 30px 40px 50px black;
+}
+.content {
+  background-color: antiquewhite;
+  width: 30vw;
+  height: 5vh;
+  align-items: center;
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.button {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  background-color: crimson;
+  height: 4vh;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.button a {
+  color: antiquewhite;
+}
+.Return {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

@@ -1,0 +1,67 @@
+.container {
+  background-color: antiquewhite;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: antiquewhite;
+  background-color: black;
+  font-size: 20px;
+  border: 5px red solid;
+}
+.NEXT {
+  font-size: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+  text-shadow: 20px 20px 40px black;
+}
+.NEXT pe {
+  color: red;
+}
+.box {
+  width: 50vw;
+  height: 30vh;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button {
+  background-color: red;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  height: 7vh;
+  width: 20vw;
+  font-size: 30px;
+  border: 5px black solid;
+}
+.paragraph {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  height: 20vh;
+  width: 100vw;
+}
+.text {
+  width: 20vw;
+  height: 30vh;
+  align-items: center;
+  justify-content: start;
+  display: flex;
+}
+.button a {
+  color: black;
+}
+.middle {
+}

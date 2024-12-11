@@ -1,0 +1,57 @@
+.header {
+  width: 100vw;
+  height: 10vh;
+  background-color: aquamarine;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+#nuur {
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+
+  color: azure;
+}
+#news {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  color: bisque;
+}
+#service {
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+}
+#video {
+  background-color: blueviolet;
+  height: 100vh;
+  width: 100vw;
+}
+#examples {
+  background-color: orangered;
+  height: 100vh;
+  width: 100vw;
+}
+.header a {
+  text-decoration: none;
+}
+.plane {
+  height: 60vh;
+  width: 100vw;
+}
+.car {
+  height: 70vh;
+  width: 100vw;
+}
+img {
+  height: 80vh;
+  width: 100vw;
+}
+h1 {
+  color: aliceblue;
+}
+p {
+  color: aliceblue;
+}
